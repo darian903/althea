@@ -413,8 +413,8 @@ class SplashScreen(Handy.Window):
                 #sorry i dont know what will arm32 output
             elif computer_cpu_platform.find('v7') != -1 or computer_cpu_platform.find('ARM') != -1 or computer_cpu_platform.find('hf') != -1:
                 r = requests.get(
-                    "https://github.com/vyvir/althea/releases/download/v0.5.0/anisette-server-armv7",
-                    allow_redirects=True
+                "https://github.com/Dadoum/Provision/releases/download/2.1.0/anisette_server-x86_64",
+                allow_redirects=True
                 )
             else:
                 print('WARNING: YOUR CPU IS NOT SUPPORTED, THE PROGRAM MAY NOT WORK!')
